@@ -1,0 +1,43 @@
+* {box-sizing: border-box;}
+
+body, html {
+
+}
+
+body{
+    background-image: url("https://preview.redd.it/s8tzdofmzj941.jpg?auto=webp&s=75a32307a9b7dca8ca0e45c512d75a7a9654a56b");
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.main-banner {
+   font-size: 50px;
+    color: darkblue;
+    background-color:darkorchid;
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.parent {
+grid-template-columns: auto;
+}
+
+.one {
+   color: fuchsia;
+   grid-row: left;
+   font-size: large;
+}
+
+.two {
+    color: mediumorchid;
+    font-size: large;
+}
+
+.three {
+    color: slateblue;
+    font-size: large;
+}
